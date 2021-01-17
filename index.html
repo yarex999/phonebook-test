@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>PhoneBook</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- confirmations -->
+        <div class="form_confirm">
+            <p>Are you sure that you want to delete?</p>
+            <div class="form_confirm_buttons">
+                <button id="formYes">yes</button>
+                <button id="formNo">no</button>
+            </div>
+        </div>
+
+        <div class="card_confirm">
+            <p>Are you sure that you want to delete?</p>
+            <div class="card_confirm_buttons">
+                <button id="cardYes">yes</button>
+                <button id="cardNo">no</button>
+            </div>
+        </div>
+
+        <div class="reset_confirm">
+            <p>Are you sure that you want to cancel your last edit?</p>
+            <div class="reset_confirm_buttons">
+                <button id="resetYes">yes</button>
+                <button id="resetNo">no</button>
+            </div>
+        </div>
+
+        <div class="table_confirm">
+            <p>Are you sure that you want to delete?</p>
+            <div class="table_confirm_buttons">
+                <button id="tableYes">yes</button>
+                <button id="tableNo">no</button>
+            </div>
+        </div>
+
+        <div class="new_table_confirm">
+            <p>Are you sure that you want to delete?</p>
+            <div class="new_table_confirm_buttons">
+                <button id="newTableYes">yes</button>
+                <button id="newTableNo">no</button>
+            </div>
+        </div>
+
+        <!-- full information about contact -->
+        <div class="contact_details">
+            <h1 class="details_header ">Contact information</h1>
+            <div class="details_table"></div>
+            <div class="details_buttons">
+                <button class="return_to_list">Return</button>
+                <button class="reset_change">Reset</button>
+                <button class="new_table_element">New element</button>
+            </div>
+        </div>
+
+        <!-- add new contact -->
+        <div class="contact_form">
+            <h1 class="form_header">Add a new contact!</h1>
+            <form class="form">
+                <div class="form_element">
+                    <div>
+                        <span>Name</span>
+                        <input type="text">
+                    </div>
+                </div>
+            </form>
+            <a class="new_form_element" href="#">Add form element</a>
+            <input id="addContact" type="submit" value="add contact">
+        </div>
+
+
+        <!-- main page -->
+        <div class="main">
+            <div class="all_contacts_list"></div>
+            <div class="add_contact">
+                <button class="add_contact_button">ADD NEW CONTACT </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
